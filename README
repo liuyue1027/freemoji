@@ -1,1 +1,3 @@
 Enable emoji support on iPhone, keep updating for latest iOS
+Known issue:
+- Crash on debug with usb cable, but running okay on iPhone4 with iOS 4.2.1 and iPad with iOS 4.2.1
