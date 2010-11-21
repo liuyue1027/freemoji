@@ -2,8 +2,8 @@
 //  FreemojiController.h
 //  Freemoji
 //
-//  Created by shang taotao on 10-11-21.
-//  Copyright 2010年 __MyCompanyName__. All rights reserved.
+//  Created by lv on 10-11-21.
+//  Copyright 2010年 CocoaChina.com. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
