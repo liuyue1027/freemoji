@@ -23,6 +23,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
+            BuildableName = "Freemoji.app"
+            BlueprintName = "Freemoji"
             ReferencedContainer = "container:Freemoji.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -40,6 +42,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
+            BuildableName = "Freemoji.app"
+            BlueprintName = "Freemoji"
             ReferencedContainer = "container:Freemoji.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
