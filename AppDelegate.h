@@ -8,9 +8,5 @@
 
 #import <Foundation/Foundation.h>
 
-
-@interface AppDelegate : NSObject {
-
-}
-
+@interface AppDelegate : NSObject <UIApplicationDelegate>
 @end

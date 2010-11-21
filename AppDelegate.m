@@ -7,8 +7,13 @@
 //
 
 #import "AppDelegate.h"
-
+#import "FreemojiController.h"
 
 @implementation AppDelegate
-
+- (void)applicationDidFinishLaunching:(UIApplication *)application {	
+	UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	FreemojiController *fc = [[FreemojiController alloc] init];
+	[window addSubview:fc.view];
+	[window makeKeyAndVisible];
+}
 @end

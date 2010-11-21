@@ -13,8 +13,9 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		8EECF8040F2E9385007AD5D8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EECF8030F2E9384007AD5D8 /* Default.png */; };
 		8EECF8100F2E9446007AD5D8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EECF80F0F2E9446007AD5D8 /* icon.png */; };
+		C575DC3812996EBB003CC91B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C575DC3712996EBB003CC91B /* AppDelegate.m */; };
+		C575DC3B129971C5003CC91B /* FreemojiController.m in Sources */ = {isa = PBXBuildFile; fileRef = C575DC3A129971C5003CC91B /* FreemojiController.m */; };
 		C590645A12995F25005D13B1 /* README in Resources */ = {isa = PBXBuildFile; fileRef = C590645912995F25005D13B1 /* README */; };
-		C5BFD44A1299660E0091B6C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BFD4491299660E0091B6C4 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +28,11 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EECF8030F2E9384007AD5D8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8EECF80F0F2E9446007AD5D8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C575DC3612996EBB003CC91B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C575DC3712996EBB003CC91B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C575DC39129971C5003CC91B /* FreemojiController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreemojiController.h; sourceTree = "<group>"; };
+		C575DC3A129971C5003CC91B /* FreemojiController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreemojiController.m; sourceTree = "<group>"; };
 		C590645912995F25005D13B1 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		C5BFD4481299660E0091B6C4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Freemoji.xcodeproj/AppDelegate.h; sourceTree = "<group>"; };
-		C5BFD4491299660E0091B6C4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Freemoji.xcodeproj/AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,11 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				C5BFD4481299660E0091B6C4 /* AppDelegate.h */,
-				C5BFD4491299660E0091B6C4 /* AppDelegate.m */,
 				C590645912995F25005D13B1 /* README */,
+				C575DC3612996EBB003CC91B /* AppDelegate.h */,
+				C575DC3712996EBB003CC91B /* AppDelegate.m */,
+				C575DC39129971C5003CC91B /* FreemojiController.h */,
+				C575DC3A129971C5003CC91B /* FreemojiController.m */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				32CA4F630368D1EE00C91783 /* Freemoji_Prefix.pch */,
 				8EECF80F0F2E9446007AD5D8 /* icon.png */,
@@ -141,7 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				C5BFD44A1299660E0091B6C4 /* AppDelegate.m in Sources */,
+				C575DC3812996EBB003CC91B /* AppDelegate.m in Sources */,
+				C575DC3B129971C5003CC91B /* FreemojiController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

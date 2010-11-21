@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+#define PREFS_FILE	@"/private/var/mobile/Library/Preferences/com.apple.Preferences.plist"
+#define EMOJI_KEY	@"KeyboardEmojiEverywhere"
+#define FEEDBACK_TAG	999
 
-@interface FreemojiController : UIViewController {
-    
-}
-
+@interface FreemojiController : UIViewController
 @end
+
