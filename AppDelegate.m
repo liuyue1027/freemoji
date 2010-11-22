@@ -15,5 +15,6 @@
 	FreemojiController *fc = [[FreemojiController alloc] init];
 	[window addSubview:fc.view];
 	[window makeKeyAndVisible];
+    //[window autorelease];
 }
 @end
